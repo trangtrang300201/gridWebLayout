@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+#header{
+    background-color: #333;
+    height: 45px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: fixed;
+}
+
+#header .nav-list{
+    display: inline-block;
+}
+
+#header .nav-list li{
+    display: inline-block;
+    list-style-type: none;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+}
+
+#header .nav-list a{
+    text-decoration: none;
+    color: #eee;
+    font-size: 16px;
+    text-align: center; 
+    display: block; 
+    padding: 16px 0;
+    font-weight: 300;
+}
+
+#header li:hover a{
+    color: #eee;
+    background-color: #a09c9c;
+}
+
+/* Slider */
+
+#slider{
+    background:url(/assets/css/img/tunes/Sad-Beautiful-World-SETHS-DOMINION-and-Vietnamese-Indie-Animation-Showcase.jpg) top center/ cover no-repeat;
+    width: 100%;
+    position: relative;
+    height: 660px; 
+}
+
+#slider .text-content{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    margin: 164px 37px 0 37px;
+    padding: 0 48px;
+    line-height: 1.4;
+}
+
+#slider .slider-heading{
+    font-size: 64px;
+    margin-top: 43px;
+    
+}
+
+#slider .slider-sub-heading{
+    font-size: 32px;
+    margin: 27px 0;
+}
+
+#slider .slider-text{
+    font-size: 18px;
+    margin: 21px 0;
+}
+
+/* Music */
+
+#music{
+    background-color: #333;
+    height: 1150px;
+    /* margin: 0 37px;
+    padding: 0 48px; */
+}
+
+#music .music-content{
+    text-align: center;
+    color: #fff;
+    margin: 0 37px;
+    padding: 0 48px;
+    display: block;
+}
+
+.music-content .music-heading{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 56px;
+    
+}
+
+.music-content .music-sub-heading{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 32px 0;
+}
+
+.music-content .music-text{
+    font-size: 20.8px;
+    font-weight: 700;
+    margin: 21px 0;
+    line-height: 1.6;
+}
+
+.music-content .music-btn{
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding: 16px;
+    background-color: #D3071B;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.music-content .music-slogan{
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+#music img{
+    width: 100%;
+    height: 600px;
+    padding: 0 60px;
+}
+
+/* Video */
+.main-video{
+    /* margin: 32px 37px 16px 37px; */
+    padding: 32px 0;
+}
+.video{
+    /* margin: 32px 37px 16px 37px; */
+    padding: 0 48px;
+    color: #333333;
+    margin: 0 37px;
+}
+
+.video .video-content{
+    text-align: center;
+    background-color: #ffffff;
+    
+}
+
+.video-content .video-heading{
+    font-size: 32px;
+    margin: 32px 0;
+}
+
+.video-content .video-text{
+    font-size: 20.8px;
+    margin: 21px 0;
+}
+
+.video-content .video-btn{
+    font-size: 16px;
+    padding: 16px;
+    background-color:#143F85 ;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+/* Container */
+
+.section{
+    background: url(/assets/css/img/tunes/Zing_Sao_bang_6.jpg) top center/ cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 500px;
+    padding: 160px 0;
+    width: 100%;
+}
+
+.section .container{
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin: 0 37px;
+    padding: 0 48px;
+}
+
+.container .head{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 32px 0;
+}
+
+.container .text{
+    font-size: 20.8px;
+    margin: 21px 0;
+}
+
+/* Gift-Card */
+.gift-card{
+    padding: 32px 64px;
+    height: 500px;
+    /* display: block; */
+    
+
+}
+.gift-card::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.gift-card .card-img{
+    width: 580px;
+    float: left;
+}
+
+.card-text{
+    width: 580px;
+    float: left;
+    
+}
+
+.card-text .card-heading{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.card-text .card-text,
+.card-subtext{
+    font-size: 16px;
+    margin: 16px 0;
+    line-height: 1.4;
+}
+
+.card-text .card-subtext{
+    border-bottom: 1px solid rgb(160, 152, 152);
+    padding-bottom: 16px;
+}
+.card-text .card-link{
+    text-decoration: none;
+    color: #103063;
+}
+.card-text .card-icon{
+    font-size: 12px;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #252529;
+    padding: 0 48px;
+    height: 350px;
+}
+
+ .footer-content{
+    margin: 0 48px;
+}
+
+.footer-content .footer-heading{
+    color: #fff;
+    font-weight: 400;
+    border-bottom: 1px solid #a09c9c;
+    font-size: 20px;
+    margin: 0 0 16px 0;
+    padding: 0 0 8px 0;
+}
+
+.footer-content {
+    float: left;
+    width: 25%;
+    line-height: 1.6;
+    padding: 0 0 0 40px;
+    margin: 14px 0;
+}
+
+.main-footer{
+    padding: 32px 48px;
+    margin: 0 37px;
+}
+
+.main-footer::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.footer-list li{
+    list-style-type: none;
+}
+.footer-list a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.6;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#footer .Copyright{
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    background-color: #333333;
+}

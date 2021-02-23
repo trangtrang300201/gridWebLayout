@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #eee;
+    
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    
+    
+}
+/* Landing-Area */
+
+/* .landing{
+   text-align: center;
+  
+} */
+
+.landing::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.landing-text{
+    float:left;
+    width: 40%;
+    background-color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 16px;
+    height: 650px;
+    position: relative;
+
+}
+
+.landing-text-inner{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding-top: 50%;
+}
+
+.landing-image{
+    float:left;
+    width: 57.5%;
+    height: 650px;
+    background-image: url(/assets/css/img/acme/0.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    /* background: 50% 50%; */
+    background-size: cover;
+}
+h1{
+    font-size: 40px;
+    
+}
+h2{
+    font-size:19.2px ;
+    color: #888888;
+}
+
+.btn{
+    margin: 32px 0 0 0 ;
+    padding: 16px 48px;
+    border: 1px solid #cccccc;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+    color: #333333;
+    display: inline-block;
+}
+
+/* Images */
+.header{
+    background-color: #333333;
+    padding: 24px;
+    text-align: center;
+}
+.header h2{
+    padding: 0 16px;
+    color: #ffffff;
+    border-right: 1px dotted #cccccc;
+    border-left: 1px dotted #cccccc;
+    font-size: 19.2px;
+    display: inline-block;
+}
+
+.caption{
+    padding: 13px;
+    background-color: #eee;
+    color: #000000;
+    text-align: center;
+}
+
+.caption h2{
+    padding: 19px 0;
+    font-weight: 700;
+}
+
+.caption p{
+    padding: 16px 0;
+}
+
+/* footer */
+.footer{
+    background-color:#333333;
+    text-align: center;
+    padding: 32px 16px;
+}
+
+.footer h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 48px 0 0 0 ;
+}
+
+.footer p{
+   margin: 16px 0;
+}

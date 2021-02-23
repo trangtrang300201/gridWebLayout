@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    background-color: #333;
+    height: 45px;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list li{
+    list-style-type: none;
+    padding: 16px;
+    display: block;
+    width: 70px;
+    text-align: center;
+}
+.nav-list li:hover{
+    background-color: #444;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px; 
+}
+
+/* Slider-Area */
+
+#slider{
+    background: url(/assets/css/img/tunes/Sad-Beautiful-World-SETHS-DOMINION-and-Vietnamese-Indie-Animation-Showcase.jpg) top center/cover no-repeat;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#slider .text-content{
+    color: #ffffff;
+    font-weight: 700;
+    margin: 164px 37px;
+    padding: 0 48px;
+}
+
+.slider-heading{
+    font-size: 64px;
+    margin: 43px 0 0 0;
+}
+
+.slider-sub-heading{
+    font-size: 32px;
+    margin: 27px 0 ;
+}
+
+.slider-text{
+    font-size: 20.8px;
+    margin: 21px 0;
+}
+
+/* Music-Area */
+#music{
+    background-color: #333;
+    padding: 32px 0;
+}
+
+.music-content{
+    font-weight: 700;
+    text-align: center;
+    margin: 0 37px;
+    padding: 0 48px;
+    color: #ffffff;
+}
+
+.music-heading{
+    font-size: 40px;
+}
+
+.music-sub-heading{
+    font-size: 32px;
+    margin: 32px 0;
+}
+
+.music-text{
+    margin: 21px 0;
+    font-size: 20.8px;
+}
+
+.music-btn{
+    background-color: #D3071B;
+    margin: 0 0 16px 0;
+    padding: 16px;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.music-slogan{
+    margin: 16px 0;
+    color: #f4f4f4;
+}
+
+.music-img{
+    text-align: center;
+}
+
+/* Main-video */
+.main-video{
+    padding: 32px 0;
+    text-align: center;
+}
+
+.video{
+    margin: 0 37px;
+    padding: 0 48px;
+}
+
+.video-heading{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 32px 0;
+}
+
+.video-text{
+    font-size: 20.8px;
+    margin: 21px 0;
+    line-height: 1.6;
+}
+
+.video-btn{
+    padding: 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #143F85;
+}
+
+/* Section-Area */
+.section{
+    background: url(/assets/css/img/tunes/20170812121727-cach-ngam-mua-sao-bang-1.jpg) top center/ cover no-repeat;
+    height: 320px;
+    text-align: center;
+    color: #ffffff;
+    padding: 160px 0;
+}
+.container{
+    margin: 0 37px;
+    padding: 0 48px;
+}
+
+.container .head{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 32px 0;
+
+}
+
+.container .text{
+    margin: 21px 0;
+    font-size: 20.8px;
+    line-height: 1.5;
+}

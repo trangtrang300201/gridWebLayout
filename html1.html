@@ -1,0 +1,129 @@
+<!--
+id: Một html chỉ đặt 1 id duy nhất, không được phép trùng tên->lỗi 
+            select tới id: sử dụng "#"-->
+        <!--class: sử dụng 1 lớp cho nhiều phần tử khác nhau
+                   select tới class sử dụng "."-->
+        <!--
+            Những thành phần thường gặp trên giao diện website
+            1. header(đầu trang)
+            2.navigation(điều hướng): các đường link đến trang khác
+            3.breadcrumb: hướng cho các bạn biết các bạn đang ở dâu
+            4.sidebar: 1 thanh thường được đặt ở 1 phía của màn hình
+            5.slider: trình diễn nội dung(dạng trượt trượt)
+            6.footer(chân trang)
+            7.content(nội dung chính)
+            8. baner
+        
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+   <!-- Navbar -->
+
+   <div class="nav">
+       <ul class="nav-list">
+           <div class="nav-item">Giới thiệu </div>
+           <div class="nav-item">Kết nối </div>
+           <div class="nav-item">Tải ứng dụng
+        </ul>
+       
+       <ul class="nav-list">
+           <div class="nav-item">Đăng ký</div>
+           <div class="nav-item">Đăng nhập</div>
+       </ul>
+   </div>
+
+   <!-- Form -->
+
+   <div class="form-container">
+       <form action="" class="form">
+           <div class="form-row">
+               <label for="name" class="form-label">Name:</label>
+               <input type="text" name="" id="name" class="form-input">
+           </div>
+
+           <div class="form-row">
+            <label for="password" class="form-label">Password:</label>
+            <input type="password" name="" id="password" class="form-input">
+           </div>
+       </form>
+   </div>
+
+   <!-- Column-Layout -->
+
+   <div class="column-layout">
+       <div class="column-item slidebar-one">
+           <h2>Sidebar one</h2>
+           <p>I'm writing to you in reference to the job position advertised MyCV.vn which immediately appealed to me.Since I've been interested in your company for a long time, I would like to apply today as a Sample position in permanent employment.</p>
+       </div>
+
+       <div class="column-item main-column">
+           <h2>Main column</h2>
+           <p>I'm writing to you in reference to the job position advertised MyCV.vn which immediately appealed to me.Since I've been interested in your company for a long time, I would like to apply today as a Sample position in permanent employment.</p>
+           <p>At the moment I'm working as a Sample position at Sample company.My most important tasks include familiarizing myself with new products, conducting sales talks and transferring orders.</p>
+           <p>Your job list sounds great! I hope that this will enable me to develop personal and professional development opportunities.I like your focus and image in this industry very well, so I see you as a very interesting employer.I have been following your development for a long time in the media and therefore believe that I also fit in well with the company.</p>
+       </div>
+
+       <div class="column-item slidebar-two">
+           <h2>Sidebar two</h2>
+           <p>I'm writing to you in reference to the job position advertised MyCV.vn which immediately appealed to me.Since I've been interested in your company for a long time, I would like to apply today as a Sample position in permanent employment.</p>
+       </div>
+   </div>
+
+   <!-- Feature-Layout -->
+
+   <div class="feature-layout">
+       <div class="feature-item">
+           <h1>Feature 1</h1>
+           <p>I'm writing to you in reference to the job position advertised MyCV.vn which immediately appealed to me.Since I've been interested in your company for a long time, I would like to apply today as a Sample position in permanent employment.</p>
+       </div>
+       <div class="feature-item">
+           <h1>Feature 2</h1>
+           <p>At the moment I'm working as a Sample position at Sample company.My most important tasks include familiarizing myself with new products, conducting sales talks and transferring orders.</p>
+       </div>
+       <div class="feature-item">
+           <h1>Feature 3</h1>
+           <p>Your job list sounds great! I hope that this will enable me to develop personal and professional development opportunities.I like your focus and image in this industry very well, so I see you as a very interesting employer.I have been following your development for a long time in the media and therefore believe that I also fit in well with the company.</p>
+       </div>
+   </div>
+
+   <!-- Wrap layout -->
+   <div class="wrap-layout">
+        <div class="wrap-layout__item">1</div>
+        <div class="wrap-layout__item">2</div>
+        <div class="wrap-layout__item">3</div>
+        <div class="wrap-layout__item">4</div>
+        <div class="wrap-layout__item">5</div>
+    </div>
+
+    <!-- Center-Layout -->
+
+    <div class="center-layout">
+        <h3 class="center-layout-item">Center item</h3>
+    </div>
+
+    <!-- End -->
+    <div class="the-end">
+        <div class="the-end__first">
+            <p>I'm writing to you in reference to the job position advertised MyCV.vn which immediately appealed to me.Since I've been interested in your company for a long time, I would like to apply today as a Sample position in permanent employment.</p>
+            <p>At the moment I'm working as a Sample position at Sample company.My most important tasks include familiarizing myself with new products, conducting sales talks and transferring orders.</p>
+            <p>Your job list sounds great! I hope that this will enable me to develop personal and professional development opportunities.I like your focus and image in this industry very well, so I see you as a very interesting employer.I have been following your development for a long time in the media and therefore believe that I also fit in well with the company.</p>
+        </div>
+        <div class="the-end__second">
+            <div class="the-end__second-one">
+                <p>I'm writing to you in reference to the job position advertised MyCV.vn which immediately appealed to me.Since I've been interested in your company for a long time.</p>
+            </div>
+            <div class="the-end__second-two">
+                <p>At the moment I'm working as a Sample position at Sample company.My most important tasks include familiarizing myself with new products, conducting sales talks and transferring orders.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
